@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Miguel Falzoni - DevFolio Portfolio</title>
+  <meta name="description" content="Portfólio profissional de Miguel Falzoni de Pontes">
+  <meta name="keywords" content="Mecânica, Pneumática, Designer, Fotógrafo Automotivo, Miguel Falzoni">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Padronização do tamanho das imagens do portfólio -->
+  <style>
+    .portfolio .portfolio-item img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 6px 6px 0 0;
+    }
+  </style>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Miguel Falzoni</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#resume">Currículo</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background position-relative d-flex align-items-center justify-content-center" style="min-height: 100vh; overflow: hidden;">
+
+      <!-- Imagem de Fundo Fixa -->
+      <img src="fotominhaf.jpeg" alt="Miguel Falzoni de Pontes" data-aos="fade-in" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; z-index: 1;">
+      
+      <!-- Camada Escura de Contraste (Overlay) -->
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.55); z-index: 2;"></div>
+
+      <!-- Conteúdo do Texto -->
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center position-relative" data-aos="fade-up" data-aos-delay="100" style="z-index: 3;">
+        <h2>Miguel Falzoni de Pontes</h2>
+        <p><span class="typed" data-typed-items="Designer, Mecânico, Pneumático, Fotógrafo Automotivo"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="fotominha.jpeg" class="img-fluid" alt="Perfil Miguel Falzoni de Pontes" style="object-fit: cover; height: 280px; width: 100%; border-radius: 8px;">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Nome: </strong> <span>Miguel Falzoni de pontes</span></p>
+                <p><strong>Perfil: </strong> <span>Designer, Mecânico, Pneumático, Fotógrafo</span></p>
+                <p><strong>Email: </strong> <span>miguelfalzonip@gmail.com</span></p>
+                <p><strong>Telefone: </strong> <span>(19) 99103-5579</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Habilidades (Skills)</h5>
+
+              <div class="progress">
+                <span class="skill"><span>Pneumático</span> <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Fotografia Automotiva</span> <i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Design</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Mecânica</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>Sobre Mim</h4>
+              <p>
+                Tenho 17 anos, moro em Americana-SP, tenho grande conhecimento em áreas como mecânica, fotografia e TI.
+              </p>
+              <p>
+                Gosto de trabalhar na parte da mecânica, sou apaixonado por carros e pretendo trabalhar no setor automotivo em qualquer área — seja na mecânica, no design ou na fotografia de veículos esportivos, clássicos, de luxo e offroad.
+              </p>
+              <p>
+                Sou uma pessoa proativa, tenho facilidade em conversar e me conectar com as pessoas.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Currículo</h2>
+        <p>Abaixo estão minhas experiências e formação educacional.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <h3 class="resume-title">Educação</h3>
+            <div class="resume-item">
+              <h4>Curso de Excel, Word, PowerPoint</h4>
+              <h5>2023</h5>
+              <p><em>CCPA Americana-SP</em></p>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Ensino Médio Técnico TI</h4>
+              <h5>2025 - 2027</h5>
+              <p><em>Escola Politec, Americana-SP</em></p>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Curso SENAI</h4>
+              <h5>2025 - 2026</h5>
+              <p><em>Roberto Mange, Americana-SP</em></p>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Experiência Profissional</h3>
+            <div class="resume-item">
+              <h4>Mecânico de Manutenção</h4>
+              <h5>2025 - 2026</h5>
+              <p><em>SENAI Americana</em></p>
+              <ul>
+                <li>Manutenção de motores redutores e bombas, troca de rolamentos, juntas, gaxetas.</li>
+                <li>Serviços pneumáticos de montagem e desmontagem, seguindo os planos dos crok entre outros.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Serviços</h2>
+        <p>Áreas de atuação e serviços oferecidos.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-gear-wide-connected"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Manutenção Mecânica</h3>
+              </a>
+              <p>Manutenção de motores redutores e bombas, troca de rolamentos, juntas, gaxetas.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Serviços Pneumáticos</h3>
+              </a>
+              <p>Serviços pneumáticos de montagem e desmontagem, sigo os planos dos crok entre outros.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-camera"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Fotografia Automotiva</h3>
+              </a>
+              <p>Registros fotográficos em exposições, detalhes de acabamento, ângulos técnicos e estética automotiva.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-palette"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Design Gráfico</h3>
+              </a>
+              <p>Desenvolvedor de logos, logotipo, flyer, envelopes, cartão de visitas.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-fire"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Soldagem</h3>
+              </a>
+              <p>Solda MAG, eletrodo, maçarico. Conhecimento técnico em expansão na área.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-file-earmark-spreadsheet"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Pacote Office</h3>
+              </a>
+              <p>Proficiência em PowerPoint, Excel e Word.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfólio</h2>
+        <p>Confira meus projetos nas áreas de mecânica, pneumática, design e fotografia automotiva.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todos</li>
+            <li data-filter=".filter-mecanica">Mecânica</li>
+            <li data-filter=".filter-pneumatica">Pneumática</li>
+            <li data-filter=".filter-design">Design</li>
+            <li data-filter=".filter-fotografia">Fotografia Automotiva</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Único Item de Mecânica -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-mecanica">
+              <img src="WhatsApp Image 2026-08-26 at 19.00.56.jpeg" class="img-fluid" alt="Bancada de Manutenção e Testes">
+              <div class="portfolio-info">
+                <h4>Bancada de Testes</h4>
+                <p>Manutenção e testes em sistemas de bombeamento</p>
+                <a href="WhatsApp Image 2026-08-26 at 19.00.56.jpeg" title="Bancada de Testes de Motores & Bombas" data-gallery="portfolio-gallery-mecanica" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Mais Detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- Único Item de Pneumática -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-pneumatica">
+              <img src="pneumatica.jpeg" class="img-fluid" alt="Sistemas Pneumáticos">
+              <div class="portfolio-info">
+                <h4>Montagem Pneumática</h4>
+                <p>Execução conforme plano de croquis</p>
+                <a href="pneumatica.jpeg" title="Montagem Pneumática" data-gallery="portfolio-gallery-pneumatica" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Mais Detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- Único Item de Design -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-design">
+              <img src="logo.png" class="img-fluid" alt="Logotipo Le Pão Padaria">
+              <div class="portfolio-info">
+                <h4>Logo - Le Pão</h4>
+                <p>Criação de identidade visual e logotipo</p>
+                <a href="logo.png" title="Logotipo Le Pão Padaria" data-gallery="portfolio-gallery-design" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Mais Detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- Único Item de Fotografia Automotiva -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-fotografia">
+              <img src="beto2.jpeg" class="img-fluid" alt="Mercedes-Benz SL Clássica Frontal - Acervo Beto Carrero">
+              <div class="portfolio-info">
+                <h4>Mercedes-Benz SL</h4>
+                <p>Fotografia Automotiva - Acervo Beto Carrero</p>
+                <a href="beto2.jpeg" title="Mercedes-Benz SL Clássica - Visão Frontal & Grade Cromada" data-gallery="portfolio-gallery-foto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Mais Detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section accent-background">
+
+      <img src="testimonials-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="0" class="purecounter">11</span>
+              <p>Certificados</p>
+            </div>
+          </div><!-- End Stats Item -->
+          
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="0" class="purecounter">0</span>
+              <p>Projetos</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="0" class="purecounter">0</span>
+              <p>Clientes</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="0" class="purecounter">0</span>
+              <p>Prêmios</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section accent-background">
+
+      <img src="testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="aristotoles.webp" class="testimonial-img" alt="Busto de Aristóteles" style="object-fit: cover; object-position: top; width: 90px; height: 90px;">
+                <h3>Aristóteles</h3>
+                <h4>Filósofo</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Nós somos aquilo que fazemos repetidamente. A excelência, portanto, não é um ato, mas um hábito.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="frie.webp" class="testimonial-img" alt="Retrato de Friedrich Nietzsche" style="object-fit: cover; object-position: top; width: 90px; height: 90px;">
+                <h3>Friedrich Nietzsche</h3>
+                <h4>Filósofo</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Aquele que tem um 'porquê' para viver pode suportar quase qualquer 'como'.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contato</h2>
+        <p>Entre em contato para mais informações ou para trabalharmos juntos.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Endereço</h3>
+                  <p>Rua Tanzania 84, Parque das nações</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Telefone</h3>
+                  <p>+19 99103-5579</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>miguelfalzonip@gmail.com</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Seu Nome" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Seu Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Carregando</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
+
+              <button type="submit">Enviar Mensagem</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Miguel Falzoni</strong> <span>Todos os Direitos Reservados</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
